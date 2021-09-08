@@ -9,6 +9,10 @@
     * Facebook开源项目
     * 易于维护的开源文档站点生成
 
+* [WangDoc](https://github.com/wangdoc)
+    * [阮一峰的互联网文档计划](https://wangdoc.com/)
+    * “复杂的技术，简单的讲解。”
+    * [CC BY 3.0许可](https://creativecommons.org/about/cclicenses/)
 ## IFO@20210905
 
 * [Photopea 在线PS](https://www.photopea.com/) 最好的的在线P图工具
