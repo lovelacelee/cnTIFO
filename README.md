@@ -1,3 +1,5 @@
-# cnTIFO
 
-Today I Found Out
+![](cnTIFO.gif)
+
+# [cnTIFO](cnTIFO.md)
+
