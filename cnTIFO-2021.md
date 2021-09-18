@@ -1,5 +1,12 @@
 # TIFO
 
+## IFO@20210918
+
+* [Official Notion SDK rewritten in Python](https://github.com/ramnes/notion-sdk-py) 
+    * 官方API文档里笔时只有JS API和PostMAN接口示例，没有Python的API，本打算自己实现
+    * GH了一下，发现有此一例，自称官方Python实现
+    * 接下来即可实现我的报告自动发送实例了，集成到clslq命令中，再用supervisor任务化。
+
 ## IFO@20210909
 
 * [CSS渐变生成](https://cssgradient.io/)
