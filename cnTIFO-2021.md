@@ -1,5 +1,13 @@
 # TIFO
 
+## IFO@20210920
+
+* [Lit](https://lit.dev/docs/) 
+    * Lit is a simple library for building fast, lightweight web components.
+* [GitFS](https://www.presslabs.com/docs/code/gitfs/) 
+    * 这个工具把一个远程 Git 仓库挂载到本地目录，该目录所有的变动自动提交到 Git，并推送到远程仓库，因此也可以回滚到任意时点。它相当于实现了基于 Git 的文件系统。
+* [基础机器学习课程](http://smlbook.org/)
+
 ## IFO@20210918
 
 * [Official Notion SDK rewritten in Python](https://github.com/ramnes/notion-sdk-py) 
