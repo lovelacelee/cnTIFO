@@ -1,5 +1,10 @@
 # TIFO
 
+## IFO@20210924
+
+* [Rambox网页聚合类应用](https://github.com/ramboxapp/community-edition)
+    * 试用了Station，Rambox更合适自建聚合，图标可以自定义，Station在国内片定义的服务Icon无法显示，不能接受
+
 ## IFO@20210918
 
 * [Official Notion SDK rewritten in Python](https://github.com/ramnes/notion-sdk-py) 
