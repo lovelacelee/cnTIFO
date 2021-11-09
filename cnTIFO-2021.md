@@ -3,6 +3,7 @@
 ## IFO@20211109
 
 * [计算机体系基础 开源教材](https://github.com/foxsen/archbase)
+* [PyWebIO](https://pywebio.readthedocs.io/zh_CN/latest/index.html) [github:Repo](https://github.com/pywebio/PyWebIO) PyWebIO提供了一系列命令式的交互函数来在浏览器上获取用户输入和进行输出，将浏览器变成了一个“富文本终端”，可以用于构建简单的Web应用或基于浏览器的GUI应用。 PyWebIO还可以方便地整合进现有的Web服务，让你不需要编写HTML和JS代码，就可以构建出具有良好可用性的应用。
 
 ## IFO@20211106
 
