@@ -1,6 +1,5 @@
 # TIFO
 
-<<<<<<< HEAD
 ## IFO@20211114
 
 * [Captura](https://mathewsachin.github.io/Captura/) 开源录屏软件
