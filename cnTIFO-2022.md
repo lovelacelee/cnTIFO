@@ -1,8 +1,16 @@
 # TIFO
 
+## IFO@20220223
+
+* [xizon/F-Curator: F-Curator is an offline application that comes at you all day long and curates your own web favorites. (github.com)](https://github.com/xizon/F-Curator)
+* [splayerx/src/main at develop · chiflix/splayerx (github.com)](https://github.com/chiflix/splayerx) Splayer Opensource Code Project
+* [darjun/go-daily-lib: Go 每日一库 (github.com)](https://github.com/darjun/go-daily-lib)
+
 ## IFO@20220113
 * 概念画板[购买 概念画板 - Microsoft Store zh-CN](https://www.microsoft.com/zh-cn/p/%E6%A6%82%E5%BF%B5%E7%94%BB%E6%9D%BF/9ngqm8fph9wq?activetab=pivot:overviewtab)
+
 概念画板拥有： 
+
 • 超逼真响应压感、倾斜和速度的钢笔、铅笔和其他笔刷，并可使用实时平滑（抖动修正）功能和触感反馈 
 • 无限大画布，伴有多种纸张类型和网格任君挑选 
 • 工具转轮和工具栏让您可个性化配置常用笔刷和预设 
