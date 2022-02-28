@@ -1,5 +1,9 @@
 # TIFO
 
+## IFO@20220228
+
+[nusr/hacker-laws-zh: 💻📖对开发人员有用的定律、理论、原则和模式。(Laws, Theories, Principles and Patterns that developers will find useful.) (github.com)](https://github.com/nusr/hacker-laws-zh)
+
 ## IFO@20220223
 
 * [xizon/F-Curator: F-Curator is an offline application that comes at you all day long and curates your own web favorites. (github.com)](https://github.com/xizon/F-Curator)
