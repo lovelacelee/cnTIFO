@@ -1,1 +1,3 @@
-- [![](cnTIFO.gif)](https://lovelacelee.github.io/cnTIFO/public)
+![](cnTIFO.gif)
+
+	- [Contents](public/index.html)
