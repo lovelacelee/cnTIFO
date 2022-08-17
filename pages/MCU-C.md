@@ -203,4 +203,18 @@
 	  #endif
 	  ```
 - #card #MCU-C 单片机C语言知识：分别写出bool、int、float、指针类型的变量a与零比较的语句：
+	- ```c
+	  //bool
+	  if(!a) or if(a)
+	  //int
+	  if(a == 0)
+	  
+	  //float:
+	  const EXPRESSION EXP = 0.000001
+	  if(a < EXP && a >-EXP)
+	  //指针：
+	  if(a != NULL) or if(a == NULL)
+	  
+	  ```
+	-
 -
