@@ -1,6 +1,12 @@
 - {{cards [[MCU-C]] }}
 - #card #MCU-C 单片机C语言知识：用预处理指令#define 声明一个常数，用以表明1年中有多少秒（忽略闰年问题）
   template:: MCUC
+  card-last-interval:: 4
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2022-08-21T07:27:52.497Z
+  card-last-reviewed:: 2022-08-17T07:27:52.498Z
+  card-last-score:: 3
 	- `#define SECONDS_PER_YEAR (60 * 60 * 24 * 365)UL`
 	- 考查：
 		- 1) `#define` 语法的基本知识（例如：不能以分号结束，括号的使用，等等）
