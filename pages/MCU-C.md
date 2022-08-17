@@ -151,6 +151,12 @@
 	- Malloc手册上说：
 		- 如果size为0，则malloc（0）返回NULL，或返回一个^^唯一的指针值^^，稍后可以成功传递给free（）。
 - #card #MCU-C 单片机C语言知识：Typedef 在C语言中频繁用以声明一个已经存在的数据类型的同义字。也可以用预处理器做类似的事。例如，思考一下下面的例子：
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2022-08-17T16:00:00.000Z
+  card-last-reviewed:: 2022-08-17T07:27:37.027Z
+  card-last-score:: 1
 	- ```c
 	  #define dPS struct s *
 	  typedef struct s * tPS;
