@@ -119,13 +119,10 @@
 	- 评价下面的代码片断：
 	  ```c
 	  unsigned int zero = 0;
-	  
+	  /*1''s complement of zero */
 	  unsigned int compzero = 0xFFFF;
 	  
-	  /*1''s complement of zero */
-	  
-	  对于一个int型不是16位的处理器为说，上面的代码是不正确的。应编写如下：
-	  
+	  //对于一个int型不是16位的处理器来说，上面的代码是不正确的。应编写如下：
 	  unsigned int compzero = ~0;
 	  ```
 	- 好的嵌入式程序员非常准确地明白硬件的细节和它的局限，然而PC机程序往往把硬件作为一个无法避免的烦恼。
