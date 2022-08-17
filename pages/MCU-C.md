@@ -19,7 +19,7 @@
 	- 跳出一个编译错误，其目的就是保证程序是按照你所设想的那样进行编译的。
 - #card #MCU-C 单片机C语言知识：嵌入式系统中经常要用到无限循环，你怎么样用C编写死循环呢？
 	- for,while,goto
-	- 考查：
+	- 当知道``考查：
 		- 1) 哪个更优？为什么用`for(;;){}`
 			- `for( ; ; )`效率略高于`while(1)`
 			  因为编译器在执行的时候会对语句进行优化， `for( ; ; )`是空语句所以会直接执行循环体内容，而编译器需要对`while(1)`进行判断。
@@ -38,4 +38,6 @@
 	- f) 一个指向有10个整型数数组的指针（ A pointer to an array of 10 integers）
 		- `int (*a)[10]; // A pointer to an array of 10 integers`
 	- g) 一个指向函数的指针，该函数有一个整型参数并返回一个整型数（A pointer to a function that takes an integer as an argument and returns an integer）
+		- `int (*a)(int); // A pointer to a function a that takes an integer argument and returns an integer`
 	- h) 一个有10个指针的数组，该指针指向一个函数，该函数有一个整型参数并返回一个整型数（ An array of ten pointers to functions that take an integer argument and return an integer ）
+		- `int (*a[10])(int); // An array of 10 pointers to functions that take an integer argument and return an integer`
