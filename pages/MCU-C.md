@@ -231,4 +231,23 @@
 		- 数组可以使用sizeof计算出容量，而sizeof(p)计算得到的是一个指针变量的字节数，一般为4个字节，而不是p所指向的内存容量。
 		- 注意：当数组作为函数形参进行传递时，该数组自动退化为同类型指针：
 		  ```c
+		  void TestBufferSize1(char a[]) {
+		      printf("buffer size = %d \r\n", sizeof(a));
+		  }
+		  
+		  void TestBufferSize2(char a[6]) {
+		      printf("buffer size = %d \r\n", sizeof(a));
+		  }
+		  
+		  int main(){
+		      char b[6] = "12345";
+		      printf("b size = %d \r\n", sizeof(b));
+		      TestBufferSize1(b);
+		      TestBufferSize2(b);
+		      system("pause");
+		  }
+		  //Output
+		  b size = 6
+		  buffer size = 4
+		  buffer size = 4
 		  ```
