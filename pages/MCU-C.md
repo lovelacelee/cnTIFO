@@ -77,4 +77,18 @@
 			- 是的。尽管这并不很常见。一个例子是当一个中断服务子程序修该一个指向一个buffer的指针时。
 		- 3) 下面的函数有什么错误：
 		  ```c
+		  int square(volatile int *ptr)
+		  {
+		  	return *ptr * *ptr;
+		  }
+		  //这段代码有点变态。这段代码的目的是用来返指针*ptr指向值的平方，
+		  //但是，由于*ptr指向一个volatile型参数，
+		  //编译器将产生类似下面的代码：
+		  int square(volatile int *ptr)
+		  {
+		    int a,b;
+		    a = *ptr;
+		    b = *ptr;
+		    return a * b;
+		  }
 		  ```
