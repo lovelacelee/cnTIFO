@@ -181,4 +181,7 @@
 	          (b) = (a) - (b);\
 	          (a) = (a) - (b);\
 	  #define MIN(a, b) (((a) < (b)) ? (a) : (b))
+	  //已知一个数组table，使用宏定义求出数组元素的个数
+	  #define TABLE_SIZE (sizeof(table) / siezof(table[0]))
 	  ```
+-
