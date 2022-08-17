@@ -91,4 +91,12 @@
 		    b = *ptr;
 		    return a * b;
 		  }
+		  //由于*ptr的值可能被意想不到地该变，因此a和b可能是不同的。
+		  //结果，这段代码可能返不是你所期望的平方值！正确的代码如下：
+		  long square(volatile int *ptr)
+		  {
+		    int a;
+		    a = *ptr;
+		    return a * a;
+		  }
 		  ```
