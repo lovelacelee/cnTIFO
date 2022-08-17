@@ -53,6 +53,9 @@
 	- 下面的声明都是什么意思？
 		- const int a;
 		- int const a;
+			- 前两个的作用是一样，a是一个常整型数。
 		- const int *a;
-	- int * const a;
-	- int const * a const;
+			- 第三个意味着a是一个指向常整型数的指针（也就是，整型数是不可修改的，但指针可以）。
+		- int * const a;
+			-
+		- int const * a const;
