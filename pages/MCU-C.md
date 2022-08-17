@@ -41,3 +41,10 @@
 		- `int (*a)(int); // A pointer to a function a that takes an integer argument and returns an integer`
 	- h) 一个有10个指针的数组，该指针指向一个函数，该函数有一个整型参数并返回一个整型数（ An array of ten pointers to functions that take an integer argument and return an integer ）
 		- `int (*a[10])(int); // An array of 10 pointers to functions that take an integer argument and return an integer`
+- #card #MCU-C 单片机C语言知识：关键字static的作用是什么？
+	- `#define SECONDS_PER_YEAR (60 * 60 * 24 * 365)UL`
+	- 考查：
+		- 1) `#define` 语法的基本知识（例如：不能以分号结束，括号的使用，等等）
+		- 2) 懂得预处理器将为你计算常数表达式的值，因此直接写出你如何计算一年中有多少秒而不是计算出实际的值，是更清晰而没有代价的。
+		- 3) 意识到这个表达式将使一个16位机的整型数溢出-因此要用到长整型符号L,告诉编译器这个常数是的长整型数。
+		- 4) 如果你在你的表达式中用到UL（表示无符号长整型），那么你有了一个好的起点。
