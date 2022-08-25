@@ -4,4 +4,5 @@
 	- 构造函数
 - #card #CPlusPlus 引用与指针的区别：
 	- {{query 引用与指针 }}
--
+- #card #CPlusPlus 关键字static
+	- 构造函数
