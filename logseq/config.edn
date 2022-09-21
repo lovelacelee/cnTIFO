@@ -176,7 +176,7 @@
  :ref/default-open-blocks-level 2
 
  :ref/linked-references-collapsed-threshold 50
- :favorites ["问题集V1" "中间件" "Communication" "算法" "CPlusPlus" "硬件总线" "ArmLinux" "MCU-C" "MCU"]
+ :favorites ["Network" "问题集V1" "中间件" "Communication" "算法" "CPlusPlus" "硬件总线" "ArmLinux" "MCU-C" "MCU"]
  :publishing/all-pages-public? true
  :journal/page-title-format "yyyy年MM月dd日"
 
